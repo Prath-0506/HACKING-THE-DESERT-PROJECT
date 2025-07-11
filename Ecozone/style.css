@@ -1,0 +1,143 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f0f9f4;
+  color: #333;
+}
+
+/* Navbar - Transparent, Frosted Glass */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: rgba(45, 106, 79, 0.4); /* semi-transparent dark green */
+  backdrop-filter: blur(10px);        /* frosted glass effect */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar nav li {
+  margin-left: 2rem;
+}
+
+.navbar nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+  color: #b7e4c7; /* Light green hover */
+}
+
+/* Hero with Video */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* Padding to keep content clear below navbar */
+.about, .how-it-works {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.about h2,
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.step {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.step h3 {
+  margin-bottom: 0.5rem;
+  color: #2d6a4f;
+}
+
+.step p {
+  font-size: 1rem;
+}
+
+.footer {
+  background: #2d6a4f;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+}

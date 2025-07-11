@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recycle Plastic - Ecozone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Ecozone</div>
+    <nav>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="recycle.html">Recycle Plastic</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero section with video -->
+  <section class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="video2.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="hero-text">
+      <h1>Recycle Your Plastic</h1>
+      <p>Choose your way to make an impact: upload proof or drop it off nearby!</p>
+    </div>
+  </section>
+
+  <!-- Recycle Options -->
+  <section class="recycle-options">
+    <div class="option">
+      <h2>📸 Upload Your Recycling Proof</h2>
+      <p>Submit a photo of the plastic you recycled and earn EcoPoints!</p>
+      <form id="uploadForm">
+        <input type="file" accept="image/*" required />
+        <br><br>
+        <button type="submit">Upload & Earn Points</button>
+      </form>
+      <p id="pointsMsg" style="margin-top: 1rem; font-weight: bold;"></p>
+    </div>
+
+    <div class="option">
+      <h2>📍 Find Local Recycling Center</h2>
+      <p>Prefer dropping it off? Use your location or search online to find the nearest trusted recycling center.</p>
+      <a href="https://www.google.com/maps/search/recycling+center+near+me/" target="_blank" class="find-center-btn">Find a Recycling Center</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Ecozone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
