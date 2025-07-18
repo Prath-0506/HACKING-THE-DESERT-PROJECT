@@ -1,3 +1,16 @@
+# EcoZone 🌱
+
+**EcoZone** is an all-in-one sustainable community platform designed to promote environmental awareness, encourage eco-friendly actions, and reward users for sustainable practices. Built for hackathons with real-world impact in mind, EcoZone helps users track green activities, earn points, and redeem eco-rewards — all in a clean and responsive web experience.
+
+---
+Install Dependencies
+Before running the project, make sure to install all the required node_modules. You must run this step, as node_modules is not included in the repository.
+
+bash
+2.npm install
+Start the Development Server
+3.npm run dev
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
