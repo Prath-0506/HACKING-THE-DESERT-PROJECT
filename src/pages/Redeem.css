@@ -1,0 +1,55 @@
+.redeem-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.points-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 1rem auto;
+  max-width: 400px;
+}
+
+.points-list li {
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+}
+
+.highlight {
+  color: green;
+  font-weight: bold;
+}
+
+.rewards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.reward-card {
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.reward-card button {
+  margin-top: 0.5rem;
+  background: #28a745;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reward-card button:disabled {
+  background: grey;
+  cursor: not-allowed;
+}
